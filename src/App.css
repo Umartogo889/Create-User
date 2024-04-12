@@ -1,0 +1,32 @@
+.App {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.No-Users {
+    font-size: 65px;
+    opacity: 0.15;
+    position: fixed;
+}
+main {
+    position: relative;
+    top: -80px;
+    height: auto;
+    width: 83%;
+}
+.Create-btn {
+    position: absolute;
+    transform: rotate(270deg);
+    left: -40px;
+    font-size: 15px;
+    color: #f0f0ff;
+    background: #f45050;
+    padding: 10px 20px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}

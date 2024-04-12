@@ -1,0 +1,11 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background: #cccccc8b;
+}
+.Footer a {
+    border-bottom: 2px dashed rgba(0, 0, 255, 0.756);
+}

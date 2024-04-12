@@ -1,0 +1,41 @@
+.UserList {
+    position: absolute;
+    top: -130px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px;
+}
+.card-wrapper {
+    position: relative;
+    width: 250px;
+    height: 380px;
+    border-radius: 8px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px #223c5033;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-wrapper img {
+    margin-top: -20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card-wrapper h3 {
+    margin-top: 20px;
+}
+.card-wrapper p {
+    margin-top: 5px;
+}
+.delite-Btn {
+    position: relative;
+    padding: 5px 30px;
+    color: #fff;
+    bottom: -25px;
+}
